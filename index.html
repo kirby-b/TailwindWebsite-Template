@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" id="main-html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your name">
+    <meta name="keywords" content="What your website is about">
+    <meta name="author" content="You">
+    <link href="./src/built.css" rel="stylesheet">
+    <title>Basic Tailwind page</title>
+</head>
+
+<body id="main-body" class="flex flex-col min-h-screen bg-black">
+    <header class="bg-gradient-to-r from-rose-700 to-blue-700 text-white">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo on the left -->
+            <div class="w-1/4 max-w-xs flex-shrink-0">
+                Your Logo Here
+            </div>
+            <!-- Links on the right -->
+            <div class="flex md:flex-row flex-col space-x-4">
+                <nav class="flex space-x-4">
+                    <a href="" class="md:text-base text-xs hover:text-purple-300">Link 1</a>
+                    <a href="" class="md:text-base text-xs hover:text-purple-300">Link 2</a>
+                    <a href="" class="md:text-base text-xs hover:text-purple-300">Link 3</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <div class="bg-transparent py-10">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+                    <!-- Main Text Section -->
+                    <div class="md:w-3/4 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <p class="text-xl font-sans m-4 text-black">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum eu libero nec auctor. Etiam suscipit quam quis mauris mollis, 
+                            in dictum tortor aliquam. Curabitur in porta urna. In nec imperdiet arcu. Morbi ullamcorper nulla in suscipit faucibus. Integer tortor 
+                            massa, accumsan quis pellentesque sed, dictum nec dui. Aliquam erat volutpat. Mauris odio lacus, ultrices ac risus eu, fermentum mollis 
+                            ligula. Nullam ac consequat augue. Curabitur nec vehicula felis. Etiam euismod quam non libero feugiat, a lacinia magna dignissim. Maecenas 
+                            fringilla rutrum sagittis.
+                            <br><br>
+                            Duis interdum condimentum nunc, eu facilisis risus molestie eu. Morbi sed massa in tortor faucibus dictum. Suspendisse ornare ipsum et 
+                            odio semper, vel viverra quam tristique. Ut pretium nulla nec elementum ornare. Morbi ut nisl in nulla aliquet pellentesque. Sed eget elit 
+                            id leo iaculis auctor. Integer rhoncus molestie tellus ac ornare. Morbi malesuada laoreet tempor. Aliquam vehicula lorem ac risus consectetur 
+                            aliquet. Quisque rhoncus, lectus sed bibendum dignissim, elit tortor venenatis quam, a ultrices lacus diam ac nisl. Proin non dolor ac nunc 
+                            gravida fermentum vel sit amet libero. Mauris sagittis elit accumsan neque ultricies sollicitudin. Aliquam tempus velit ac lorem semper 
+                            mollis. Mauris vehicula aliquet nunc sed pulvinar. Pellentesque convallis rhoncus odio ut egestas. 
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="flex flex-col md:flex-row justify-center items-center md:space-x-6">
+                    <!-- Sub-Section 1 -->
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
+                            <b>LOREM IPSUM</b>
+                        </div>
+                        <p class="text-xl font-sans m-4 text-black">
+                            Maecenas condimentum urna diam, nec<br>
+                            Maecenas ut nunc turpis. Aliquam<br>
+                            Pellentesque rutrum, turpis nec pulvinar<br>
+                            Pellentesque habitant morbi tristique senectus<br>
+                            Nam et venenatis neque, sed
+                        </p>
+                    </div>
+                    <!-- Sub-Section 2 -->
+                    <div class="md:w-1/2 p-4 bg-white border-2 border-gray-300 rounded-lg shadow-lg">
+                        <div class="text-center text-2xl text-black">
+                            <b>DOLOR SIT AMET</b>
+                        </div>
+                        <p class="text-xl font-sans m-4 text-center text-black">
+                            <br><span class="font-semibold">Lorem Ipsum</span><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis consectetur arcu a condimentum. Ut vitae eros eros. Sed nec tellus augue. Vivamus ut magna
+                            <br><br><span class="font-semibold">Dolor Sit</span><br>
+                            Integer egestas nisl id mauris iaculis congue. Mauris eu tortor non neque condimentum gravida. Mauris tristique commodo neque. Vestibulum porta leo sollicitudin 
+                            ex sagittis, at. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-700 to-rose-700 text-white text-center py-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-center space-x-6">
+                <a href="" class="hover:text-purple-300">Link 1</a>
+                <a href="" class="hover:text-purple-300">Link 2</a>
+                <a href="" class="hover:text-purple-300">Link 3</a>
+            </div><!--Links to other pages-->
+            <p class="mt-6 text-sm">&#169; The year and your name.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
